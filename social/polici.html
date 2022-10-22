@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Реєстрація</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <style>
+      .card {
+        border-radius: 0;
+        text-align: center;
+        padding: 1em;
+      }
+      .card img {
+        border-radius: 10%;
+        width: 41%;
+        margin: auto;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      * {
+        box-sizing: border-box;
+      }
+
+      /* Поля ввода полной ширины */
+      input[type="text"],
+      input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0 20px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+      }
+
+      input[type="text"]:focus,
+      input[type="password"]:focus {
+        background-color: #ddd;
+        outline: none;
+      }
+
+      hr {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 25px;
+      }
+
+      /* Установите стиль для всех кнопок */
+      button {
+        background-color: #1c83c7;
+        color: white;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+      }
+
+      button:hover {
+        opacity: 1;
+      }
+
+      /* Дополнительные стили для кнопки Отмена */
+      .cancelbtn {
+        padding: 12px 20px;
+        background-color: #a2a7aa;
+      }
+
+      /* Поплавок отмена и кнопки регистрации и добавить равную ширину */
+      .cancelbtn,
+      .signupbtn {
+        float: right;
+        width: 50%;
+      }
+
+      /* Добавление отступов к элементам контейнера */
+      .container {
+        padding: 26px;
+      }
+
+      /* Снимите поплавки */
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      /* Измените стили для кнопки отмены и кнопки регистрации на дополнительных маленьких экранах */
+      @media screen and (max-width: 300px) {
+        .cancelbtn,
+        .signupbtn {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand p-0" href="intex.html">
+          <img src="apple-touch-icon.png" alt="Logo" width="50" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="1)get started.html"
+                >Головна</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="2)reg.html"> Реєстрація</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="polici.html">Інформація</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="4)Pass.html">Забули пароль?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="2)reg.html">Про нас</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="conteiner text-center my-6">
+      <div class="col">
+        <h3 class="card-text">Пользовательское соглашение</h3>
+        <div class="row" row="col-2"></div>
+      </div>
+    </div>
+    <p>
+      Meta создает технологии и услуги, которые позволяют людям общаться друг с
+      другом, формировать сообщества и развивать компании. Настоящее
+      Пользовательское соглашение регулирует использование вами Facebook,
+      Messenger, а также других продуктов, функций, приложений, услуг,
+      технологий и программного обеспечения, которые мы предлагаем (Продукты
+      Meta или Продукты), если прямо не указано, что применяются отдельные
+      условия (а данное соглашение не применяется). Эти Продукты предоставляются
+      вам компанией Meta Platforms, Inc.
+    </p>
+    <p>
+      Мы не списываем средства за использование вами Facebook или других
+      продуктов и сервисов, на которые распространяется настоящее
+      Пользовательское соглашение, если не указано иное. Однако компании,
+      организации и другие люди платят нам, чтобы показывать вам рекламу своих
+      продуктов и услуг. Используя наши Продукты, вы соглашаетесь с тем, что мы
+      можем показывать вам рекламные объявления, которые, по нашему мнению,
+      могут соответствовать вашим интересам. Мы используем ваши персональные
+      данные, чтобы определить, какая персонализированная реклама будет наиболее
+      актуальна для вас.
+    </p>
+    <p>
+      Мы не продаем ваши личные данные рекламодателям и не предоставляем им
+      информацию, по которой можно установить вашу личность (например, ваше имя,
+      адрес электронной почты или другую контактную информацию), если вы не
+      дадите нам на это специальное разрешение. Однако рекламодатели могут
+      сообщить нам о целевой аудитории для своих рекламных объявлений, и мы
+      покажем эти объявления людям, для которых они будут актуальны. Мы
+      предоставляем рекламодателям отчеты об эффективности рекламных объявлений,
+      которые помогают им понять, как люди взаимодействуют с их контентом.
+      Подробную информацию о том, как персонализированная реклама работает в
+      Продуктах Meta согласно настоящему Пользовательскому соглашению, см. в
+      разделе 2 ниже.
+    </p>
+    <p>
+      В нашей Политике конфиденциальности объясняется, как мы собираем и
+      используем ваши персональные данные, чтобы определять, какие рекламные
+      объявления могут быть актуальны для вас, и предоставлять другие описанные
+      ниже сервисы. Кроме того, в настройках соответствующих Продуктов Meta вы
+      можете в любое время изменить уровень конфиденциальности в отношении
+      использования нами ваших данных.
+    </p>
+  </body>
+</html>
