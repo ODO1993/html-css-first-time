@@ -149,6 +149,7 @@ header {
   border-right-width: 20px;
   position: relative;
   z-index: 2;
+  outline: none;
 }
 .default-btn:after {
   content: "\f105";
@@ -168,17 +169,28 @@ header {
   width: 40px;
   height: 40px;
   border: 1px solid #fff;
-  position: relative;
+  cursor: pointer;
+  outline: none;
+  background-color: #ffc222;
 }
+.slick-btn.slick-disabled {
+  cursor: default;
+  background-color: transparent;
+}
+
 .slick-btn::before {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50% -50%);
+  transform: translate(-50%, -50%);
   font-family: "icomoon";
+  color: #fff;
 }
 .slick-next::before {
   content: "\f105";
+}
+.slick-prev::before {
+  content: "\f104";
 }
 .slick-next {
   right: 0;
