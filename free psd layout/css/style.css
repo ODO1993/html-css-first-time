@@ -39,7 +39,7 @@ header {
   display: block;
   position: relative;
 }
-.header__btn::before {
+.header__btn:before {
   content: "\f0b1";
   font-family: "icomoon";
   position: absolute;
@@ -62,7 +62,7 @@ header {
   padding-left: 20px;
   padding-right: 30px;
 }
-.header__phone::before {
+.header__phone:before {
   content: "\f095";
   font-family: "icomoon";
   position: absolute;
@@ -72,7 +72,7 @@ header {
 .header__email {
   padding-left: 24px;
 }
-.header__email::before {
+.header__email:before {
   content: "\f003";
   font-family: "icomoon";
   position: absolute;
@@ -122,7 +122,7 @@ header {
 .slider__title {
   text-transform: uppercase;
   font-size: 30px;
-  line-height: 30px;
+  line-height: 36px;
   color: #fff;
   font-weight: 500;
   letter-spacing: 1.5px;
@@ -167,6 +167,7 @@ header {
   width: 40px;
   height: 40px;
   border: 1px solid #fff;
+
   cursor: pointer;
   outline: none;
   background-color: #ffc222;
@@ -175,7 +176,7 @@ header {
   cursor: default;
   background-color: transparent;
 }
-.slick-btn::before {
+.slick-btn:before {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -183,10 +184,10 @@ header {
   font-family: "icomoon";
   color: #fff;
 }
-.slick-next::before {
+.slick-next:before {
   content: "\f105";
 }
-.slick-prev::before {
+.slick-prev:before {
   content: "\f104";
 }
 .slick-next {
@@ -211,9 +212,9 @@ header {
   padding-left: 140px;
   position: relative;
 }
-.services__title-box::before,
-.form__title-box::before,
-.news__title-box::before {
+.services__title-box:before,
+.form__title-box:before,
+.news__title-box:before {
   content: "";
   position: absolute;
   width: 100px;
@@ -264,7 +265,7 @@ header {
   line-height: 24px;
   font-weight: 500;
   font-family: "Roboto", sans-serif;
-  padding: 24px 0px;
+  padding: 24px 0;
 }
 .services__item-text {
   letter-spacing: 0.1px;
@@ -446,6 +447,7 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
 .advantages-item {
   max-width: 360px;
   padding: 0px 20px;
@@ -458,7 +460,7 @@ header {
   padding: 60px 0px 15px;
   position: relative;
 }
-.advantages__title::before {
+.advantages__title:before {
   content: "";
   position: absolute;
   width: 40px;
@@ -468,7 +470,7 @@ header {
   left: 50%;
   transform: translateX(-50%);
 }
-.advantages__title::after {
+.advantages__title:after {
   content: "\f00c";
   font-family: "icomoon";
   font-size: 14px;
@@ -486,7 +488,6 @@ header {
   padding: 55px 0px 110px;
   background-color: #f9f9f9;
 }
-
 .news__inner {
   display: flex;
   justify-content: space-between;
@@ -523,8 +524,8 @@ header {
 .news__date {
   position: absolute;
   background-color: #ffc222;
-  width: 50px;
   height: 55px;
+  width: 50px;
   color: #fff;
   text-align: center;
   padding-top: 30px;
@@ -576,7 +577,7 @@ header {
 .news__slider-inner .slick-disabled {
   border-color: #dadada;
 }
-.news__slider-inner .slick-disabled::before {
+.news__slider-inner .slick-disabled:before {
   color: #dadada;
 }
 .footer__content {
@@ -600,11 +601,11 @@ header {
   width: 100%;
 }
 .footer__title {
-  font-size: 16px;
-  line-height: 36px;
-  font-weight: 500;
   font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
   color: #fff;
+  line-height: 36px;
   letter-spacing: 0.5px;
 }
 .footer__text {
@@ -630,18 +631,18 @@ header {
   padding-left: 33px;
   position: relative;
 }
-.footer__list a::before {
+.footer__list a:before {
   content: "\f003";
-  font-family: "icomoon";
   position: absolute;
   left: 0;
   color: #ffc222;
+  font-family: "icomoon";
 }
-.footer__list .footer__phone::before {
+.footer__list .footer__phone:before {
   content: "\f095";
   left: 3px;
 }
-.footer__list .footer__adress::before {
+.footer__list .footer__adress:before {
   content: "\f041";
   left: 3px;
 }
@@ -650,7 +651,7 @@ header {
   text-align: center;
   font-size: 12px;
   line-height: 24px;
-  padding: 8px 0px;
+  padding: 8px 0;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
 }
